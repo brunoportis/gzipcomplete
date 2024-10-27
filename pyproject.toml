@@ -1,0 +1,10 @@
+[project]
+name = "gzipcomplete"
+version = "0.1.0"
+description = "A simple command-line tool to test gzip word similiarity."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "nltk>=3.9.1",
+    "prompt-toolkit>=3.0.48",
+]
